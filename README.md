@@ -1,4 +1,4 @@
-# Nstats
+# Nstatistics
 
 ## Introduction
 Provides a series of numeric routines usable to statistical.
@@ -6,21 +6,21 @@ Provides a series of numeric routines usable to statistical.
 ## Installation
 
 ```bash
-$ npm install Nstats
+$ npm install Nstatistics
 ```
 
 ## Features
-- **Nstats statistical**
+- **Nstatistics statistical**
 
 ## API
-### `Nstats`
-Initialize `Nstats`
+### `Nstatistics`
+Initialize `Nstatistics`
 
 ```js
-var Nstats = require('nstats');
+var Nstatistics = require('nstatistics');
 ```
 
-#### `Nstats`
+#### `Nstatistics`
 Here is exposed the statistical methods, this a application of Linear Algebra methods.
 
 ```js
@@ -33,7 +33,7 @@ var data = [
   [0,4,0,9,1,5,3],
   [6,4,3,2,0,5,6]
 ]
-var stats = new Nstats(data) ;
+var stats = new Nstatistics(data) ;
 stats.media() // return the matrix with array :
 // [
 // [ 3.2857142857142856 ],
