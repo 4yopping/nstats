@@ -1,0 +1,53 @@
+{
+  "name": "nstats",
+  "version": "0.0.1",
+  "description": "Solve equations using numerical methods, linear álgebra  and solver  of linear equation system ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "gulp": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4yopping/nstats.git"
+  },
+  "keywords": [
+    "Solve",
+    "algebra",
+    "vector",
+    "mathematic",
+    "mathematics",
+
+    "Stats",
+    "statistics",
+    "matrix"
+  ],
+  "author": "Jesús Cereceres <cereceres@ciencias.unam.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4yopping/nstats/issues"
+  },
+  "homepage": "https://github.com/4yopping/nstats#readme",
+  "dependencies": {
+    "lalgebra": "0.0.1"
+  },
+  "devDependencies": {
+    "async": "^1.4.2",
+    "commander": "^2.8.1",
+    "events": "^1.0.2",
+    "gnuplot": "^0.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "gulp-plato": "^1.0.2",
+    "jshint-stylish": "^2.0.1",
+    "linear-algebra": "^3.1.1",
+    "mocha": "^2.2.5",
+    "mocha-fivemat-reporter": "*",
+    "mocha-lcov-reporter": "0.0.2",
+    "mocha-unfunk-reporter": "^0.4.0",
+    "prompt": "^0.2.14",
+    "sinon": "^1.17.2",
+    "yargs": "^3.21.0"
+  }
+}
