@@ -1,7 +1,7 @@
 # Nstats
 
 ## Introduction
-(Before JNsolve)Solve numerically equations and calculate best fit to a data array given, also provides a series of numeric routines usable.
+Provides a series of numeric routines usable to statistical.
 
 ## Installation
 
